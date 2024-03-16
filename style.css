@@ -1,0 +1,63 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/purple-cute-watercolor-education-music-note-powerpoint-background_6ecd952d7f__960_540.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(45deg, blue, red); */
+}
+.main {
+    margin-top: 60px;
+    width: 400px;
+    height: 500px;
+    border: 3px solid rgb(116, 44, 209);
+    border-radius: 20px;
+    background-image: url(https://64.media.tumblr.com/6bb79faf55461ee01a87d5bedb9081f1/tumblr_onn734q6Rv1ue08b9o1_540.gif);
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    align-items:flex-end;
+    justify-content: center; 
+    box-shadow: 0px 0px 20px 5px blue;
+    transition: 2s 3s;
+}
+.main:hover {
+    cursor: pointer;
+    width: 500px;
+    transition: 3s;
+    box-shadow: 0px 0px 20px 5px rgb(255, 0, 0);
+    border: 3px solid rgb(253, 41, 3);
+}
+audio:hover{
+    transform: scale(1.2);
+    /* transform: rotate(360deg); */
+    transition: 2s;
+}
+.main2 {
+    margin-top: 60px;
+    width: 400px;
+    height: 500px;
+    border: 3px solid rgb(116, 44, 209);
+    border-radius: 20px;
+    background-image: url(https://cojo.ru/wp-content/uploads/2024/01/ekvalaizer-3.gif);
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    align-items:flex-end;
+    justify-content: center; 
+    box-shadow: 0px 0px 20px 5px blue;
+    transition: 2s;
+    cursor: pointer;
+    }
+.main2:hover {    
+    /* transform: rotate(360deg); */
+    cursor: pointer;
+    width: 500px;
+    transition: 3s;
+    box-shadow: 0px 0px 20px 5px rgb(0, 255, 55);
+    border: 3px solid rgb(11, 253, 3);
+}
